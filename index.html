@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="main.css">
+</head>
+
+<body class="bg-gray-100 p-6 w-3/3">
+     <header class="mb-4">
+          <h1 class="text-4xl font-bold text-center uppercase">To-Do List</h1>
+     </header>
+     <section class="mb-6">
+          <div class="flex justify-center">
+               <input id="todo-input" type="text"
+                    class="p-2 border rounded-l-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+                    placeholder="Enter a new to-do">
+               <button id="add-btn" class="bg-blue-500 text-white px-4 rounded-r-lg hover:bg-blue-600">Add</button>
+          </div>
+     </section>
+     <ul id="todo-list" class="max-w-lg mx-auto bg-white p-4 rounded shadow"></ul>
+
+     <script src="index.js"></script>
+</body>
+
+</html>
